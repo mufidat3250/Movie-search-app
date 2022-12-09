@@ -13,7 +13,7 @@ export const HeroSectionWrapper = styled.div`
 
 @media (max-width:834px) {
 
-    background-image : url('/public/images/Rectangle 5.png');
+    background-image : url('/images/Rectangle 5.png');
     height: 34.375rem;
     display: flex;
     justify-content: center;
