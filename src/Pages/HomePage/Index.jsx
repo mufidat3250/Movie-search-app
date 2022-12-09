@@ -9,7 +9,7 @@ const HomePage = () => {
     const [query, setQuery] = useState('')
     const apiKey = import.meta.env.VITE_API_KEY
   const fetchMovies =  () => {
-    fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=${apiKey}`).then((res)=> res.json()).then((data)=> setData({...data}));
+    fetch(`https://www.omdbapi.com/?i=tt3896198&apikey=${apiKey}`).then((res)=> res.json()).then((data)=> setData({...data}));
   };
  
   console.log(data, 'data')
