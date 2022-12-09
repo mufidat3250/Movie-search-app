@@ -11,8 +11,7 @@ const HomePage = () => {
   const fetchMovies =  () => {
     fetch(`https://www.omdbapi.com/?i=tt3896198&apikey=${apiKey}`).then((res)=> res.json()).then((data)=> setData({...data}));
   };
- 
-  console.log(data, 'data')
+console.log(apiKey)
 useEffect(() => {
   fetchMovies()  
 }, [])

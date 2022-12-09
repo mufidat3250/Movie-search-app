@@ -5,7 +5,7 @@ const Input = ({setQuery}) => {
   return (
     <InputWrapper>
     <label htmlFor="">Search</label>
-    <input type="text" onChange={(e)=> setQuery(e.target.value)}/>
+    <input type="text" onChange={(e)=> setQuery(e.target.value)} placeholder='Search Movies...'/>
     </InputWrapper>
   )
 }

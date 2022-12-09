@@ -6,7 +6,7 @@ export const InputWrapper = styled.div`
         width: 100%;
     border: 1px solid black;
     height: 4.8125rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-top: 4px;
     }
     label{
