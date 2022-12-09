@@ -1,6 +1,6 @@
 import styled from "styled-components";
 export const HeroSectionWrapper = styled.div`
-    background-image : url('/public/images/Rectangle 5.png');
+    background-image : url('/images/Rectangle 5.png');
     height: 34.375rem;
 .content{
     width: 24rem; 
@@ -31,7 +31,7 @@ export const HeroSectionWrapper = styled.div`
 }
 @media (max-width:320px) {
 
-background-image : url('/public/images/Rectangle 5.png');
+background-image : url('/images/Rectangle 5.png');
 height:15.3125rem;
 display: flex;
 justify-content: center;
