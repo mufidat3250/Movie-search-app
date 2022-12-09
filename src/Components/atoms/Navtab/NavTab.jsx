@@ -9,4 +9,10 @@ export const NavTabWrapper = styled.div`
     img{
         height: 2.0587rem;
     }
+
+    @media (max-width:843px) {
+    justify-content: center;
+    align-items: center;
+    }
+
 `
