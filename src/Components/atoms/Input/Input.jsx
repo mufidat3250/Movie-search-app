@@ -5,7 +5,7 @@ export const InputWrapper = styled.div`
     outline: none;
     width: 100%;
     border: 1px solid black;
-    height: 4.8125rem;
+    height: 3.5rem;
     font-size: 1.5rem;
     margin-top: 4px;
     padding-left:1rem;

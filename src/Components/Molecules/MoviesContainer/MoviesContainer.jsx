@@ -24,6 +24,7 @@ export const MoviesContainerStyle = styled.div`
         gap: 13px;    
     }
     .movies-category{
+        margin-top: 0.5rem;
         h4{
             font-size: 1.5rem;
         }
