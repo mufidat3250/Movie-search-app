@@ -10,6 +10,8 @@ const MovieCardWrappper = styled.div`
     border-radius: 12px;
     background-color: black;
     flex-shrink: 0;
+    color: white;
+
     @media (max-width:320px) {
         height: 12.5rem;
     width: 12.5rem;
@@ -21,10 +23,10 @@ const MovieCardWrappper = styled.div`
     flex-shrink: 0;
     }
 `
-const MovieCard = () => {
+const MovieCard = ({img}) => {
   return (
     <MovieCardWrappper>
-            Movie Name
+           <img src={img} alt="" />
     </MovieCardWrappper>
   )
 }

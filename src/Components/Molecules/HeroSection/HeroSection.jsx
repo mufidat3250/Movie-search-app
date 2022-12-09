@@ -2,13 +2,10 @@ import styled from "styled-components";
 export const HeroSectionWrapper = styled.div`
     background-image : url('/public/images/Rectangle 5.png');
     height: 34.375rem;
-
-
 .content{
     width: 24rem; 
     font-size:4.5rem;
     color: white;
-    /* line-height: 94; */
     font-weight: 700;
     padding-top: 6.8125rem;
     margin-left: 4.8125rem;

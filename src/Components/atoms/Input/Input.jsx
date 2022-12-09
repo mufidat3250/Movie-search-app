@@ -23,7 +23,7 @@ export const InputWrapper = styled.div`
     margin-top: 4px;
     }
     label{
-        font-size:1.25rem;
+        font-size:0.875rem;
         
     }
     }

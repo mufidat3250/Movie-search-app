@@ -6,9 +6,7 @@ export const MoviesContainerStyle = styled.div`
     .input-wrapper{
         margin-bottom:3rem;
         margin-left:4.8125rem;
-        margin-right:3.5625rem;
-
-       
+        margin-right:3.5625rem;       
     }
     .available-movies{
         display: flex;
@@ -37,9 +35,7 @@ export const MoviesContainerStyle = styled.div`
     .input-wrapper{
         margin-bottom:2.0625rem;
         margin-left:1.75rem;
-        margin-right:1.75rem;
-
-       
+        margin-right:1.75rem;       
     }
     .available-movies{
         display: flex;
